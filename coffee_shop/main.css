@@ -1,0 +1,100 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    height: 100vh;
+    background: url(coffee.jpg) no-repeat 50% 50%;
+    /*background-color: rgba(51, 26, 0, 0.4); */
+    background-size: cover;
+    display: table;
+}
+
+.nav {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.nav li {
+    list-style: none;
+    display: inline-block;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-weight: lighter;
+    padding: 16px 40px;
+}
+
+.logo {
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.nav .logo-nav {
+    position: fixed;
+    float: left;
+
+}
+
+.logo-nav img {
+    width: 70px;
+}
+
+.header {
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header h1 {
+    color: #fff;
+    font-family: Satisfy;
+    font-size: 48px;
+}
+
+.tagline {
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.tagline p {
+    color: #fff;
+    font-family: 'Montserrat';
+    letter-spacing: 16px;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+.btn {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button {
+    padding: 16px 42px;
+    font-family: 'Montserrat';
+    background: rgba(0,0,0,0);
+    color: #ffffff;
+    transition: .3s;
+    font-size: 18px;
+    border: 1px solid #fff;
+}
+
+button:hover {
+    background: #fff;
+    color: #000;
+}
+
