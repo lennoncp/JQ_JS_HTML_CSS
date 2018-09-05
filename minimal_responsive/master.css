@@ -70,7 +70,7 @@ nav ul li a {
     font-weight: 600;
 }
 
-.hidden {
+nav .hidden {
         display: none;
 }
 
